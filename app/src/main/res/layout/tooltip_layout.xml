@@ -16,17 +16,23 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/tooltip1">
-        <TextView
-            android:id="@+id/tooltip_text"
+        <!--<TextView-->
+            <!--android:id="@+id/tooltip_text"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/tooltip_bg"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="Text 1"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="bold" />-->
+
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/tooltip_bg"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="Text 1"
-            android:textColor="@android:color/white"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            android:src="@mipmap/sw_img_launcher"
+            android:background="@drawable/tooltip_bg"/>
 
         <TextView
             android:id="@+id/tooltip_text2"
@@ -36,7 +42,7 @@
             android:gravity="center"
             android:padding="10dp"
             android:text="Text 2"
-            android:textColor="@android:color/white"
+            android:textColor="@color/textColor1"
             android:textSize="20dp"
             android:textStyle="bold" />
 
