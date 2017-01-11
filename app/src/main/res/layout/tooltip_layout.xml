@@ -32,7 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/sw_img_launcher"
-            android:background="@drawable/tooltip_bg"/>
+            android:background="@drawable/tooltip_bg"
+            android:onClick="dispPopupStack"/>
 
         <TextView
             android:id="@+id/tooltip_text2"
@@ -41,7 +42,7 @@
             android:background="@drawable/tooltip_bg"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Text 2"
+            android:text="Text 1"
             android:textColor="@color/textColor1"
             android:textSize="20dp"
             android:textStyle="bold" />

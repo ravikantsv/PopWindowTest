@@ -15,4 +15,6 @@
         android:layout_centerVertical="true"
         android:onClick="onClick"
         android:text="Click me to see tooltip" />
+
+    
 </RelativeLayout>

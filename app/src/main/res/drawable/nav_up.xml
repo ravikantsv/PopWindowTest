@@ -4,16 +4,16 @@
     <item>
         <rotate
             android:fromDegrees="45"
-            android:pivotX="-50%"
+            android:pivotX="-30%"
             android:pivotY="80%"
             android:toDegrees="45" >
             <shape android:shape="rectangle" >
-                <solid android:color="#ffffff" >
+                <solid android:color="#935151" >
                 </solid>
 
                 <stroke
                     android:width="2dp"
-                    android:color="#ffffff" />
+                    android:color="#9f4949" />
             </shape>
         </rotate>
     </item>
